@@ -1,0 +1,361 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: #fefcf7;
+
+    font-family: "Fraunces", serif;
+    margin-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    margin: 15px;
+    color: #83888f;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+a:hover {
+    color: #333d4b;
+}
+
+.banner {
+    display: block;
+    margin: auto;
+    /* margin-top: 40px; */
+    background-image: url(./project1bg.jpg);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    color: white;
+
+}
+
+.b1 {
+    display: block;
+    margin: auto;
+}
+
+.b1_heading {
+    font-family: "Fraunces", serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: Fraunces;
+    color: aliceblue;
+    font-size: 80px;
+    font-weight: bolder;
+
+}
+
+.b1_heading p {
+    font-family: "Fraunces", serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.b1_text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(168, 179, 192);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.b1_btn {
+    margin-top: 50px;
+}
+
+.b1_btn p {
+    font-family: "Fraunces", serif;
+    padding: 10px;
+    width: 217px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: #0e8784;
+}
+
+#coll {
+    padding: 0px;
+    margin: 0px;
+    /* margin-top: 100px; */
+    font-family: "Barlow";
+    font-size: 200px;
+    font-weight: bolder;
+    text-align: center;
+    word-spacing: 5px;
+    color: #c5c6c7;
+}
+
+.products {
+    margin-top: -130px;
+    background-color: #fefcf7;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 300px; */
+}
+
+.Pro {
+    width: 200px;
+    margin: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.ProImg {
+    height: 193px;
+    width: 255;
+}
+
+.Pro h2 {
+    font-family: "Fraunces", serif;
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+}
+
+.coll2 {
+    font-family: "Fraunces", serif;
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    font-family: "Barlow", sans-serif;
+    background-color: #2c343e;
+    border-radius: 10px;
+    padding-top: 80px;
+    padding-bottom: 350px;
+
+    border: 2px solid red;
+}
+
+
+
+.coll2_para {
+    display: block;
+    margin: auto;
+    max-width: 550px;
+    font-family: "Fraunces", serif;
+}
+
+.coll2 h1 {
+    font-family: "Fraunces", serif;
+    font-size: 50px;
+}
+
+.Box {
+    margin-top: -300px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.coll2_b {
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: #0e8784;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+}
+
+
+.coll2_head {
+    font-family: "Fraunces", serif;
+    text-align: center;
+}
+
+.coll2_text {
+    text-align: center;
+    /* padding-bottom: 40px; */
+}
+
+#coll2_head3 {
+    font-family: "Fraunces", serif;
+    margin-top: 70px;
+}
+
+.coll2_img {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+
+
+
+
+.coll3 {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    font-family: "Fraunces", serif;
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+}
+
+
+.coll3_outer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.coll_3Head {
+
+    font-family: "Fraunces", serif;
+    color: #83888f;
+    font-size: larger;
+    font-weight: 800;
+    margin-left: 50px;
+
+}
+
+.coll_3timeline {
+    font-family: "Fraunces", serif;
+    margin-left: 50px;
+    width: 700px;
+}
+
+.coll3_number {
+    margin: 40px;
+    font-family: "Fraunces", serif;
+    width: 300px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.number {
+    font-family: "Fraunces", serif;
+
+    color: #fdd6ba;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+#coll_3Headp {
+    font-size: 30px;
+}
+
+.coll3_head h4 {
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #2c343e;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    padding-left:0px;
+}
+
+/* #foot_outer{
+    margin: 10px;
+} */
+
+@media(max-width:1500px) {
+    #coll {
+        font-size: 150px;
+        font-weight: 800;
+    }
+
+    .products {
+        margin-top: -20px;
+    }
+
+    body {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media(max-width:1200px) {
+    #coll {
+        font-size: 100px;
+        font-size: 100px;
+        font-weight: 800;
+    }
+
+    .products {
+        margin-top: -20px;
+    }
+
+    .injected-svg {
+        width: 500px;
+    }
+
+    #footer_nabvbar {
+        display: none;
+    }
+
+    .injected-svg {
+        display: none;
+    }
+
+    #coll_3Headp {
+        text-align: center;
+    }
+
+    body {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media(max-width:900px) {
+    #coll {
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+    .products {
+        margin-top: -20px;
+    }
+
+    .foot_social {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+    body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}
